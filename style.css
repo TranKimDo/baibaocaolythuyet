@@ -1,0 +1,79 @@
+/* Reset một số thuộc tính mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #004a99;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .featured-news {
+    margin-bottom: 20px;
+  }
+  
+  .featured-news article {
+    display: flex;
+    align-items: center;
+  }
+  
+  .featured-news img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .featured-news h3 {
+    font-size: 1.5rem;
+  }
+  
+  .latest-news ul {
+    list-style: none;
+  }
+  
+  .latest-news li {
+    margin-bottom: 10px;
+  }
+  
+  .latest-news a {
+    color: #004a99;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
